@@ -23,7 +23,7 @@ First, you must initialize the API configuration, so that the API knows your use
 #### 1. Register new user
 
 ```cs
-Configruation.AddUser();
+Configuration.AddUser();
 ```
 
 This will first attempt to locate your bridge device automatically using Philips' discovery service, then register a new user with the Bridge. **NOTE:** You must press the button on the bridge before you call this method, and once you press the button you have 30 seconds to call this method.
